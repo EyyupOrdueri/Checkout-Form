@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    margin: 10px 0px;
+}
+
+input {
+    padding-inline-start: 30px;
+}
+
+h2 {
+    margin: 40px 0 10px 0;
+}
+
+.count-post {
+    display: flex;
+    margin-top: 20px;
+}
+
+.fa-solid {
+    position: absolute;
+    padding: 2px 0px 4px 7px;
+}
