@@ -10,11 +10,12 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 20px;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact {
@@ -144,4 +145,56 @@ select {
 .last p {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.but2 {
+    display: none;
+}
+
+@media (max-width:800px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .but1 {
+        display: none;
+    }
+
+    .but2 {
+        display: block;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:385px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #country {
+        width: 75px;
+    }
+
+    #post {
+        width: 150px;
+    }
+
+    .products {
+        width: 300px;
+    }
+
+    .but1 {
+        display: none;
+    }
+
+    .but2 {
+        display: block;
+        margin-top: 20px;
+    }
+
 }
