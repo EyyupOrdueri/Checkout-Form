@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="contact">
+
+    <h1>Checkout</h1>
+
+    <div class="container">
+
+        <div class="contact">
 
         <h2>Contact Information</h2>
 
@@ -63,7 +67,56 @@
             <label for="checkbox">See this information next time</label>
         </div>
 
+        <div class="continue">
+            <button id="cont-but">Continue</button>
+        </div>
+
+        </div>
+
+        <div class="products">
+
+            <div class="box bag">
+                <div><img src="./images/photo1.JPG" alt="Bag"></div>
+                <div class="product-info">
+                    <h3>Vintage Backbag</h3>
+                    <p><span class="cut-price">$54.99</span> <span class="prev-price"><del>$94.99</del></span></p>
+                    <div class="counter">
+                        <button class="count-but" id="dec">-</button>
+                        <p id="one">1</p>
+                        <button class="count-but" id="inc">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box shoe">
+                <div><img src="./images/photo2.JPG" alt="Shoe"></div>
+                <div class="product-info">
+                    <h3>Levi Shoes</h3>
+                    <p><span class="cut-price">$74.99</span> <span class="prev-price"><del>$124.99</del></span></p>
+                    <div class="counter">
+                        <button class="count-but" id="dec">-</button>
+                        <p id="one">1</p>
+                        <button class="count-but" id="inc">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prod-foot">
+                <hr>
+                <div class="last shipping">
+                    <p>Shipping</p> <p>$19</p> 
+                </div>
+                <hr>
+                <div class="last total">
+                    <p>Total</p> <p>$148.98</p> 
+                </div>
+            </div>
+
+        </div>
+
     </div>
+    
+    
 
     <script
       src="https://kit.fontawesome.com/d6d7ecfc42.js"
