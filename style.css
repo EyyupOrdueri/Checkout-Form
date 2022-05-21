@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
 label {
@@ -17,6 +18,8 @@ label {
 
 input {
     padding-inline-start: 30px;
+    padding: 4px 0 5px 30px;
+    width: 100%;
 }
 
 h2 {
@@ -28,7 +31,27 @@ h2 {
     margin-top: 20px;
 }
 
+select {
+    width: 100px;    
+    padding: 5px 0 4px 22px;
+}
+
+.post {
+    margin-left: 18px;
+}
+
 .fa-solid {
     position: absolute;
-    padding: 2px 0px 4px 7px;
+    padding: 6px 0px 2px 7px;
+}
+
+.che-info {
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+#checkbox {
+    width: 20px;
+    margin: 11px 0 10px 0;
 }
